@@ -11,6 +11,10 @@ categories: jekyll update
 => s3_website push
 {% endhighlight %}
 
+~/.aws/credentials file required
+
+https://github.com/dhaskew/blog
+
 I use the [S3 Website][s3_website] tool to automate the uploading of the site to s3.
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
