@@ -40,3 +40,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+permalink: :title/
+
+collections:
+  xps9360: #name
+    title: XPS 9360
+    output: true
+    permalink: /:collection/:title
+
