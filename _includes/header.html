@@ -26,7 +26,7 @@
           {%- endfor -%}
           {%- for collection in site.collections -%}
             {%- if collection.label != 'posts' -%}
-            <a class="page-link" href="{{ site.url }}/{{ collection.label }}/">{{ collection.title | escape }}</a>
+            <a class="page-link" href="{{ site.baseurl }}/{{ collection.label }}/">{{ collection.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
