@@ -6,7 +6,7 @@ categories: jekyll update
 ---
 
 {% highlight bash %}
-=> bundle exec jekyll --build 
+=> bundle exec jekyll --build #bundle required to genererate rss feeds correctly
 => jekyll --serve
 => s3_website push
 {% endhighlight %}
