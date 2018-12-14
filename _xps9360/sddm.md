@@ -6,7 +6,7 @@ subject: SDDM
 summary: How to make login manager better.
 ---
 
-The SDDM login manager and its various widgets and fonts looked too small on the QHD screen while in native resolution.
+The SDDM login manager and its various widgets and fonts looked too small on the UHD screen while in native resolution.
 
 So I uppedd the DPI setting by:
 
