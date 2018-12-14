@@ -16,3 +16,5 @@ So I uppedd the DPI setting by:
 [dhaskew@xps13 ~]$ cat /etc/sddm.conf | grep ServerArguments
 ServerArguments=-nolisten tcp -dpi 184 
 ```
+
+Adding the "dpi" option made a world of difference.

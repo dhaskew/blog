@@ -12,14 +12,15 @@ Here's what I did:
 
 ```bash
 #prepare a font to be used by grub
-sudo grub-mkfont --output=/boot/grub/fonts/DejaVuSansMono20.pf2 --size=20 /usr/share/fonts/TTF/DejaVuSansMono.ttf
+$> sudo grub-mkfont --output=/boot/grub/fonts/DejaVuSansMono20.pf2 --size=20 /usr/share/fonts/TTF/DejaVuSansMono.ttf
 
 #Edit grub's config so that it references the newly created font
-#/etd/default/grub
+
+$> cat /etc/default/grub | grep GRUB_FONT
 GRUB_FONT=/boot/grub/fonts/DejaVuSansMono20.pf2
 
 #This will make grub reload its config file(s)
-sudo update-grub
+$> sudo update-grub
 ```
 
 Other potentially useful info:
