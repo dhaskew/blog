@@ -23,6 +23,9 @@ url: "http://aske.ws" # the base hostname & protocol for your site, e.g. http://
 twitter_username:
 github_username: dhaskew 
 
+# Google Analytics
+google_analytics: UA-36665837-1
+
 # Build settings
 markdown: kramdown
 theme: minima
