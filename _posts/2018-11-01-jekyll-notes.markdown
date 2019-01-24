@@ -13,6 +13,15 @@ categories: jekyll update
 => s3_website push
 {% endhighlight %}
 
+
+Modifiying the default theme can be useful.  If you want to know what the current theme is and where the gem is located:
+
+{% highlight bash %}
+THEME=`cat _config.yml | grep theme`; bundle show `echo ${THEME##*:}`
+{% endhighlight %}
+
+
+
 ~/.aws/credentials file required
 
 https://github.com/dhaskew/blog
