@@ -3,6 +3,9 @@
 
 Baloo is the file indexing service for KDE
 
+* cpu issues + disk space issues
+System -> Search -> File Search -> Enable File Search
+
 ``` bash
 $> balooctl indexSize
 Actual Size: 465.11 MiB
