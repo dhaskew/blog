@@ -15,7 +15,15 @@ categories: aws
     * Connect to it via ssh and/or rdp
   * Create an Elastic IP / Externap IP address
     * and assign it to an EC2 instance
-  * 
+  * Create a Load Balancer?
+  * Create an Auto Scaling Group?
+    * load creation tools to test scaling group policies
+      * jmeter
+      * apache benchmark
+
+
+* AMI = Amazon Machine Image
+  * can be created from the AWS dashboard as a clone of an existing image
 
 * EC2 = Elastic Cloud Compute
   * instance prices vary by type (windows >$ linux)
