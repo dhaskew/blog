@@ -5,9 +5,17 @@ date:   2019-04-15 18:46:57 -0400
 categories: aws
 ---
 
-* Two factor authenticatinon enabled? Enable it.
-* Are you still using AWS resources as your root account? Create a less priviledged account with manage permissions.
-
+* Things to do
+  * Two factor authenticatinon enabled? Enable it.
+  * Are you still using AWS resources as your root account? Create a less priviledged account with manage permissions.
+  * Modify the default VPC - experiment
+  * Create a new VPC
+    * understand subnets and availability zones
+  * Create an EC2 instance
+    * Connect to it via ssh and/or rdp
+  * Create an Elastic IP / Externap IP address
+    * and assign it to an EC2 instance
+  * 
 
 * EC2 = Elastic Cloud Compute
   * instance prices vary by type (windows >$ linux)
@@ -16,6 +24,7 @@ categories: aws
 
 * EBS = Elastic Block Strorage
   * for use with EC2
+  * you can disconnect your storage for the EC2 instance to use with other instances?
 
 * S3 = Simple Storage Service
   * max file size = 5T
@@ -74,6 +83,7 @@ categories: aws
     * dense compute vs dense storage nodes
   
 * VPC = Virtual Private Cloud
+  * control access to resources
   * security groups + routing rules controls
     * routing tables
       * what goes where
