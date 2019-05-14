@@ -22,6 +22,8 @@ categories: aws
       * apache benchmark
 
 
+* CORS = Cross Origin Resource Store
+
 * AMI = Amazon Machine Image
   * can be created from the AWS dashboard as a clone of an existing image
 
