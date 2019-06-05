@@ -20,12 +20,41 @@ categories: aws
     * load creation tools to test scaling group policies
       * jmeter
       * apache benchmark
+  * Create a CloudFormation template and use it to create/update/delete a resource stack
+  * Use Elastic BeanStalk to automate installation of a web service
+  * CloudFront setup for blog?
 
+
+* Cloud Front
+  * used to cache data
+  * can sit in-front of S3 Buckets
+  * "edging" your content
+  * a "distribution"
+    * ttl
+    * different behaviors based on path
+    * 
+
+* Elasticache
+  * redis, memcached style service
+  * uses "clusters" of nodes
+  * Redis is super popular
 
 * CORS = Cross Origin Resource Store
 
 * AMI = Amazon Machine Image
   * can be created from the AWS dashboard as a clone of an existing image
+
+* CloudFormation
+  * service to provision resources using templates
+    * templates are json documents
+    * no limit on number of resources created
+  * stack
+    * a collection resources created by a template
+    * can be created, updated, deleted (including its resources)
+  * security groups can be managed as well
+
+* CloudFormer
+  * Creates a CloudFormation template based on existing infrastructure 
 
 * EC2 = Elastic Cloud Compute
   * instance prices vary by type (windows >$ linux)
@@ -44,10 +73,7 @@ categories: aws
     * amount of data transfered
     * number of requests
 
-* Cloud Front
-  * used to cache data
-  * can sit in-front of S3 Buckets
-  * "edging" your content
+
 
 * RDS = Relational Database Service
   * managed databases in the cloud
@@ -56,6 +82,14 @@ categories: aws
     * type of database
     * region
     * ec2 instance type
+  * creating an RDS instance also sets up an EC2 instance at the same time
+  * can create read replica's
+  * daily backups are standard
+  * multiple database engine choices
+    * oracle
+    * mysql
+    * postgres
+    * ....
 
 * Route53 = DNS
   * pricing
@@ -76,6 +110,8 @@ categories: aws
   * Logs/Monitoring dashboard
   * its basicially free
     * you pay for EC2 instances / load balancers / S3
+  * Uses CloudFormation in the background
+
 
 * DynamoDB
   * NoSQL database service
