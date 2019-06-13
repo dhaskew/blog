@@ -23,7 +23,12 @@ categories: aws
   * Create a CloudFormation template and use it to create/update/delete a resource stack
   * Use Elastic BeanStalk to automate installation of a web service
   * CloudFront setup for blog?
+    * create a distribution
+    * when to invalidate?
+  * SNS - implement an alert to your email/sms
 
+* API Gateway
+  * can sit in front of restful API
 
 * Cloud Front
   * used to cache data
@@ -92,6 +97,9 @@ categories: aws
     * ....
 
 * Route53 = DNS
+  * route via weighted routing
+  * geolocation routing
+  * failover routing
   * pricing
     * hosted zone
     * number of queries 
