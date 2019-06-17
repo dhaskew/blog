@@ -26,6 +26,9 @@ categories: aws
     * create a distribution
     * when to invalidate?
   * SNS - implement an alert to your email/sms
+  * Create a lambda function
+    * integrate with blog?
+    * contact form that sends an email (via SES)?
 
 * API Gateway
   * can sit in front of restful API
