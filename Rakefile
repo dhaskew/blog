@@ -17,3 +17,9 @@ task :show_theme do
   sh "THEME=`cat _config.yml | grep theme`; bundle show `echo ${THEME##*:}`"
 end
 
+desc "Publish the site to S3"
+task :publish do
+  sh "s3_website push"
+end
+
+
