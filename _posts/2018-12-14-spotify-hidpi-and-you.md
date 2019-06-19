@@ -11,4 +11,4 @@ If you have a [xps9360]({{ site.baseurl }}/xps9360/) like I do, then your beauti
 $> spotify --force-device-scale-factor=1.5
 ```
 
-[https://community.spotify.com/t5/Desktop-Linux-Windows-Web-Player/Linux-client-barely-usable-on-HiDPI-displays/td-p/1067272]()
+<https://community.spotify.com/t5/Desktop-Linux-Windows-Web-Player/Linux-client-barely-usable-on-HiDPI-displays/td-p/1067272>
