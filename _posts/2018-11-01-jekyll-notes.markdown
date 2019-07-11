@@ -22,7 +22,7 @@ THEME=`cat _config.yml | grep theme`; bundle show `echo ${THEME##*:}`
 
 
 
-~/.aws/credentials file required
+`~/.aws/credentials` file required
 
 https://github.com/dhaskew/blog
 
