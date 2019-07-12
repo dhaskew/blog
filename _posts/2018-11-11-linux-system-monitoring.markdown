@@ -5,7 +5,8 @@ date:   2018-11-11 18:46:57 -0400
 categories: linux desktop
 ---
 
-{% highlight bash %}
+```bash
 => watch grep \"cpu MHz\" /proc/cpuinfo
 => dmesg -wx
-{% endhighlight %}
+```
+
