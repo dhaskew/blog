@@ -189,3 +189,41 @@ What is the status of Amazon's services? : https://status.aws.amazon.com/
 
 https://github.com/aws
 
+
+===== TEST NOTES =====
+
+* Elastic Beanstalk
+  * Configuration Files (.ebextensions) – Settings for any options that are not applied directly to the environment, and also not specified in a saved configuration, are loaded from configuration files in the .ebextensions folder at the root of the application source bundle.
+  * Tomcat / Passenger / Puma 
+* API Gateway
+  * import a rest api
+    * openapi 2 and 3
+    * swagger?
+* Code Commit
+  * event notifications configured in console
+  * uses cloudwatch event rules under the hood
+* SNS
+  * payloads can be different per device type
+  * json keypairs
+* EC2
+  * instance metadata
+    * retrieve via curl or other get request to http://169.254.169.254/latest/meta-data/
+  * user data 
+    * limited to 16k
+    * base64 encoded
+* Lambda
+  * 1000 concurrent connections
+  * 75GB function and layer storage
+  * timeout - 900 seconds / 15 mins
+  * 128 MB to 3008 MB in 64MB chunks
+  * 1024 threads
+  * https://docs.aws.amazon.com/lambda/latest/dg/limits.html
+* S3
+  * multipart upload recommended at 100MB
+* DynamoDB
+  * read request unit = 4k = represents:
+    * 1 strongly consistent read
+    * 2 eventually consistent reads 
+  * write request unit = 1k
+    * 1 normal write
+    * transactional write require 2 units per 1k
