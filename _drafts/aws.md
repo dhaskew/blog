@@ -227,3 +227,30 @@ https://github.com/aws
   * write request unit = 1k
     * 1 normal write
     * transactional write require 2 units per 1k
+* Cognito
+  * A user pool is a user directory in Amazon Cognito. With a user pool, your users can sign in to your web or mobile app through Amazon Cognito. Your users can also sign in through social identity providers like Facebook or Amazon, and through SAML identity providers. Whether your users sign in directly or through a third party, all members of the user pool have a directory profile that you can access through an SDK. 
+  * After successfully authenticating a user, Amazon Cognito issues JSON web tokens (JWT) that you can use to secure and authorize access to your own APIs, or exchange for AWS credentials. 
+  * The two main components of Amazon Cognito are user pools and identity pools. Identity pools provide AWS credentials to grant your users access to other AWS services. To enable users in your user pool to access AWS resources, you can configure an identity pool to exchange user pool tokens for AWS credentials
+* SQS
+  * polling model message queues
+  * FIFO queue vs Standard (loose FIFO)
+  * FIFO is deliver once
+    * 1 consumer per message group
+    * 3000 / second with batching
+    * 300 / second solo
+  * Standard is deliver at least once
+  * By grouping messages into batches, you can reduce your Amazon SQS costs
+  * each message can have 10 metadata attributes
+  * long polling vs short polling
+    * long polling
+      * cheaper
+      * not good in multithreaded consumers
+      * 20 max timeout  recommended
+  * PurgeQueue action to clear queue
+  * message retention is 1 min to 14 days, default is 4 days
+  * MessageRetentionPeriod attribute
+  * message size from 1k to 256k
+  * max message count is 120K for standard and 20k for FIFO
+  * message queue names limited to 80 chars
+  * 30 second default Visibility Timout
+    * max is 12 hours
