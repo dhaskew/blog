@@ -254,3 +254,12 @@ https://github.com/aws
   * message queue names limited to 80 chars
   * 30 second default Visibility Timout
     * max is 12 hours
+* S3
+  * normal max upload is 5GB, 5TB in parts
+  * Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path. 
+  * S3 Transfer Acceleration optimizes the TCP protocol and adds additional intelligence between the client and the S3 bucket, making S3 Transfer Acceleration a better choice if a higher throughput is desired. If you have objects that are smaller than 1GB or if the data set is less than 1GB in size, you should consider using Amazon CloudFront's PUT/POST commands for optimal performance.
+  * multipart upload
+    * max size 5TB
+    * max number of parts 10000
+    * part size 5mb to 5gb
+    *  
