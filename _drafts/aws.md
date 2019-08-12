@@ -11,31 +11,6 @@ categories: aws
   * https://d0.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf
   * https://aws.amazon.com/cli/
 
-* Things to do
-  * Two factor authenticatinon enabled? Enable it.
-  * Are you still using AWS resources as your root account? Create a less priviledged account with manage permissions.
-  * Modify the default VPC - experiment
-  * Create a new VPC
-    * understand subnets and availability zones
-  * Create an EC2 instance
-    * Connect to it via ssh and/or rdp
-  * Create an Elastic IP / Externap IP address
-    * and assign it to an EC2 instance
-  * Create a Load Balancer?
-  * Create an Auto Scaling Group?
-    * load creation tools to test scaling group policies
-      * jmeter
-      * apache benchmark
-  * Create a CloudFormation template and use it to create/update/delete a resource stack
-  * Use Elastic BeanStalk to automate installation of a web service
-  * CloudFront setup for blog?
-    * create a distribution
-    * when to invalidate?
-  * SNS - implement an alert to your email/sms
-  * Create a lambda function
-    * integrate with blog?
-    * contact form that sends an email (via SES)?
-
 * API Gateway
   * can sit in front of restful API
 
