@@ -169,7 +169,7 @@ https://github.com/aws
 
 * Elastic Beanstalk
   * Configuration Files (.ebextensions) – Settings for any options that are not applied directly to the environment, and also not specified in a saved configuration, are loaded from configuration files in the .ebextensions folder at the root of the application source bundle.
-  * Tomcat / Passenger / Puma 
+  * Tomcat / Passenger / Puma / Docker
 * API Gateway
   * import a rest api
     * openapi 2 and 3
@@ -209,7 +209,7 @@ https://github.com/aws
   * The two main components of Amazon Cognito are user pools and identity pools. Identity pools provide AWS credentials to grant your users access to other AWS services. To enable users in your user pool to access AWS resources, you can configure an identity pool to exchange user pool tokens for AWS credentials
 * SQS
   * polling model message queues
-  * FIFO queue vs Standard (loose FIFO)
+  * FIFO queue vs Standard (loose FIFO / indeterminate)
   * FIFO is deliver once
     * 1 consumer per message group
     * 3000 / second with batching
