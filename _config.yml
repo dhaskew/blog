@@ -51,4 +51,7 @@ collections:
     title: XPS 9360
     output: true
     permalink: /:collection/:title/
-
+  cheatsheets: #name
+    title: Cheatsheets
+    output: true
+    permalink: /:collection/:title/

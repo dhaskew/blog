@@ -12,6 +12,11 @@ task :build do
   sh "JEKYLL_ENV='production' bundle exec jekyll build"
 end
 
+desc "Serve the site"
+task :serve do
+  sh " bundle exec jekyll serve --incremental"
+end
+
 desc "Show the current theme and location on disk"
 task :show_theme do
   sh "THEME=`cat _config.yml | grep theme`; bundle show `echo ${THEME##*:}`"
