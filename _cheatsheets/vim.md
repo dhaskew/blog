@@ -14,6 +14,16 @@ summary: Vim Cheatsheet
 :bd # buffer delete
 ```
 
+Resizing Splits:
+
+https://vim.fandom.com/wiki/Resize_splits_more_quickly
+
+```vimscript
+:resize 60 # resize virtical rows to 60
+:vertical resize 80 # resize a vertical split to 80 columns
+:vertical resize +5 # add 5 columns to the width
+```
+
 Folding:
 
 ```vimscript
