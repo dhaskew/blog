@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Git
+title: git
 sequence: 2
-subject: Git
-summary: Git Cheatsheet
+subject: git
+summary: git Cheatsheet
 ---
 [Git](https://git-scm.com/) is awesome.
 

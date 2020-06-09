@@ -12,5 +12,5 @@ summary: gcalcli Cheatsheet
 ```bash
 >> gcalcli list   # list your calendars
 >> gcalcli agenda # print a list of appointments coming up soon
->> gcalcli quick "Beers with Jon? 8pm Friday" --calendar davidaskew@gmail.com
+>> gcalcli quick "Beers with Jon? 8pm Friday" --calendar calname # add an event using fuzzy time to calendar 'calname' 
 ```

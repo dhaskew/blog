@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Vim
+title: vim
 sequence: 1
-subject: Vim
-summary: Vim Cheatsheet
+subject: vim
+summary: vim Cheatsheet
 ---
 
 [Vim](https://www.vim.org) is awesome.

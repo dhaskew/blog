@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Go
+title: go
 sequence: 3
-subject: Go
-summary: Go Cheatsheet
+subject: go
+summary: go Cheatsheet
 ---
 
 [Go](https://golang.org) is awesome.
