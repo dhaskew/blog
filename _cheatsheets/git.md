@@ -3,7 +3,7 @@ layout: post
 title: git
 sequence: 2
 subject: git
-summary: git Cheatsheet
+summary: git is modern day version control 
 ---
 [Git](https://git-scm.com/) is awesome.
 

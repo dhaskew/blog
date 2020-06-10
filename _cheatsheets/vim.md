@@ -3,7 +3,7 @@ layout: post
 title: vim
 sequence: 1
 subject: vim
-summary: vim Cheatsheet
+summary: vim is better than emacs 
 ---
 
 [Vim](https://www.vim.org) is awesome.

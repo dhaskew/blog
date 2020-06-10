@@ -3,7 +3,7 @@ layout: post
 title: arris 
 sequence: 6
 subject: arris 
-summary: arris Cheatsheet
+summary: arris cable modem info 
 ---
 
 I bought an [Arris SB8200](https://www.arris.com/surfboard/) cable modem. 

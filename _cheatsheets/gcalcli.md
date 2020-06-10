@@ -3,7 +3,7 @@ layout: post
 title: gcalcli
 sequence: 4
 subject: gcalcli 
-summary: gcalcli Cheatsheet
+summary: gcalcli is a google calendar cli client 
 ---
 
 [gcalcli](https://github.com/insanum/gcalcli) is awesome.
