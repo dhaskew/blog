@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1Password
-sequence: 12
+sequence: 9
 subject: 1Password
 summary: 1Password CLI Details
 ---
