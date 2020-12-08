@@ -12,6 +12,7 @@ summary: vim is better than emacs
 :edit <filename> # edit a file
 :vsplit # virtical split
 :bd # buffer delete
+SHIFT-5(%) # move to matching bracket / paren / etc
 ```
 
 Resizing Splits:
